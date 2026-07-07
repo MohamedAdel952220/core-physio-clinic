@@ -34,7 +34,7 @@ function Logo({
   const wordAccent = light ? '#AAD0FF' : 'var(--teal-600)';
   const wordSub = light ? '#C8E2FF' : 'var(--ink-500)';
   return /*#__PURE__*/React.createElement("img", _extends({
-  src: light ? "/assets/logo-white.svg" : "/assets/logo.svg",
+  src: light ? "../../assets/logo-white.svg" : "../../assets/logo.svg",
   alt: "Core Physio Clinic",
   width: size * 4.5,
   height: "auto",
