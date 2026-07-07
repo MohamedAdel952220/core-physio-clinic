@@ -1,0 +1,69 @@
+/* Core Physio Clinic — Color System
+   Brand palette: deep blue primary, soft blue surfaces,
+   ink slate text, warm gold for ratings, WhatsApp green for chat. */
+
+:root {
+  /* ---- Brand: Blue (primary) ---- */
+  --teal-900: #071D3F;
+  --teal-800: #0D2E6E;
+  --teal-700: #1556C8;
+  --teal-600: #2A85FF;  /* primary */
+  --teal-500: #57A1FF;
+  --teal-400: #82BBFF;
+  --teal-300: #AAD0FF;
+  --teal-200: #C8E2FF;
+  --teal-100: #DCEFFF;
+  --teal-50:  #EEF6FF;
+
+  /* ---- Ink / Slate (text + structure) ---- */
+  --ink-900: #0A1E3C;  /* headings */
+  --ink-800: #132D56;
+  --ink-700: #1D4070;  /* body strong */
+  --ink-600: #2D5485;  /* body */
+  --ink-500: #4A6F9A;  /* muted */
+  --ink-400: #7591B4;  /* placeholder */
+  --ink-300: #A0B4CC;
+
+  /* ---- Neutrals / Surfaces ---- */
+  --white:    #FFFFFF;
+  --surface:  #F4F8FF;  /* page tint */
+  --surface-2:#EBF2FF;  /* alt section */
+  --border:   #D0DFFA;  /* hairlines */
+  --border-2: #B8CDEF;
+
+  /* ---- Accents ---- */
+  --gold-500: #F5B73E;  /* stars / rating */
+  --gold-100: #FCEEC9;
+  --coral-500:#F08A6A;  /* warm secondary accent */
+  --coral-100:#FBE3DA;
+  --whatsapp: #25D366;
+  --whatsapp-dark: #1EBE5B;
+
+  /* ---- Semantic aliases ---- */
+  --color-primary:        var(--teal-600);
+  --color-primary-strong: var(--teal-700);
+  --color-primary-soft:   var(--teal-100);
+
+  --text-heading:    var(--ink-900);
+  --text-body:       var(--ink-600);
+  --text-strong:     var(--ink-700);
+  --text-muted:      var(--ink-500);
+  --text-on-primary: var(--white);
+  --text-link:       var(--teal-700);
+
+  --surface-page:    var(--white);
+  --surface-tint:    var(--surface);
+  --surface-card:    var(--white);
+  --surface-inverse: var(--teal-900);
+
+  --border-subtle:   var(--border);
+  --border-strong:   var(--border-2);
+
+  --rating-star:     var(--gold-500);
+
+  /* ---- Signature gradients ---- */
+  --grad-mint:   linear-gradient(160deg, #EEF6FF 0%, #DCEFFF 55%, #FFFFFF 100%); /* @kind color */
+  --grad-hero:   radial-gradient(120% 120% at 85% 8%, #DCEFFF 0%, #F4F8FF 42%, #FFFFFF 100%); /* @kind color */
+  --grad-cta:    linear-gradient(135deg, #1556C8 0%, #2A85FF 55%, #57A1FF 100%); /* @kind color */
+  --grad-glass:  linear-gradient(160deg, rgba(255,255,255,0.85), rgba(255,255,255,0.55)); /* @kind color */
+}

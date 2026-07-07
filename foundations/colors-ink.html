@@ -1,0 +1,21 @@
+<!-- @dsCard group="Colors" viewport="700x150" name="Ink & Neutrals" subtitle="Text, surfaces and hairline borders" -->
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/><link rel="stylesheet" href="../styles.css"/>
+<style>
+  body{margin:0;font-family:var(--font-sans);background:var(--white);padding:22px;}
+  .row{display:flex;gap:0;border-radius:var(--radius-md);overflow:hidden;box-shadow:var(--shadow-sm);}
+  .sw{flex:1;height:96px;display:flex;flex-direction:column;justify-content:flex-end;padding:9px 11px;}
+  .sw b{font-size:12px;font-weight:700;}
+  .sw span{font-size:10.5px;opacity:.8;font-variant-numeric:tabular-nums;}
+  .dark{color:#fff;} .lite{color:var(--ink-800);}
+</style></head><body>
+<div class="row">
+  <div class="sw dark" style="background:var(--ink-900)"><b>Ink 900</b><span>Headings</span></div>
+  <div class="sw dark" style="background:var(--ink-700)"><b>Ink 700</b><span>Strong</span></div>
+  <div class="sw dark" style="background:var(--ink-600)"><b>Ink 600</b><span>Body</span></div>
+  <div class="sw dark" style="background:var(--ink-500)"><b>Ink 500</b><span>Muted</span></div>
+  <div class="sw lite" style="background:var(--surface-2)"><b>Surface 2</b><span>Alt section</span></div>
+  <div class="sw lite" style="background:var(--surface)"><b>Surface</b><span>Page tint</span></div>
+  <div class="sw lite" style="background:var(--white);box-shadow:inset 0 0 0 1px var(--border)"><b>White</b><span>Cards</span></div>
+</div>
+</body></html>

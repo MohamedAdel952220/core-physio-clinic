@@ -1,0 +1,6 @@
+/* Core Physio Clinic — Webfonts
+   English (LTR): Plus Jakarta Sans — modern, premium humanist sans.
+   Arabic  (RTL): IBM Plex Sans Arabic — clean, clinical, excellent screen legibility.
+   Loaded from Google Fonts CDN. Swap to self-hosted binaries for production. */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap');

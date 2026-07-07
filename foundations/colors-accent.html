@@ -1,0 +1,23 @@
+<!-- @dsCard group="Colors" viewport="700x150" name="Accents & Gradients" subtitle="Gold ratings, coral, WhatsApp + signature gradients" -->
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/><link rel="stylesheet" href="../styles.css"/>
+<style>
+  body{margin:0;font-family:var(--font-sans);background:var(--white);padding:22px;display:flex;gap:14px;}
+  .col{flex:1;display:flex;flex-direction:column;gap:10px;}
+  .chips{display:flex;gap:10px;}
+  .chip{flex:1;height:54px;border-radius:var(--radius-sm);display:flex;align-items:flex-end;padding:7px 9px;font-size:11px;font-weight:700;}
+  .grad{height:54px;border-radius:var(--radius-sm);display:flex;align-items:flex-end;padding:7px 9px;font-size:11px;font-weight:700;color:#fff;box-shadow:var(--shadow-sm);}
+</style></head><body>
+<div class="col">
+  <div class="chips">
+    <div class="chip" style="background:var(--gold-500);color:#5a3d00">Gold 500</div>
+    <div class="chip" style="background:var(--coral-500);color:#5a2412">Coral 500</div>
+    <div class="chip" style="background:var(--whatsapp);color:#0a3d1d">WhatsApp</div>
+  </div>
+  <div class="grad" style="background:var(--grad-cta)">grad-cta</div>
+</div>
+<div class="col">
+  <div class="grad" style="background:var(--grad-hero);color:var(--ink-700)">grad-hero</div>
+  <div class="grad" style="background:var(--grad-mint);color:var(--ink-700)">grad-mint</div>
+</div>
+</body></html>
