@@ -89,7 +89,7 @@ function Hero({ t, rtl, openWhatsApp, bookingHref }) {
           </div>
         </div>
         <div style={{ position: 'relative' }}>
-          <img src="/assets/hero.jpg" alt="معالج طبيعي مع مريض في عيادة كور فيزيو" style={{ width: '100%', aspectRatio: '4/5', objectFit: 'cover', objectPosition: '70% center', borderRadius: 28, display: 'block' }} />
+          <img src="../../assets/hero.jpg" alt="معالج طبيعي مع مريض في عيادة كور فيزيو" style={{ width: '100%', aspectRatio: '4/5', objectFit: 'cover', objectPosition: '70% center', borderRadius: 28, display: 'block' }} />
           <div style={{ position: 'absolute', insetInlineStart: -22, top: 36 }}>
             <div style={{ background: 'var(--glass-bg)', backdropFilter: 'var(--blur-glass)', WebkitBackdropFilter: 'var(--blur-glass)', border: 'var(--glass-border)', borderRadius: 18, padding: '14px 18px', boxShadow: 'var(--shadow-glass)', display: 'flex', alignItems: 'center', gap: 12 }}>
               <span style={{ width: 40, height: 40, borderRadius: 12, background: 'var(--gold-100)', color: 'var(--gold-500)', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}><Icon name="star" size={20} /></span>
@@ -113,7 +113,7 @@ function Empathy({ t, rtl }) {
     <section style={{ padding: 'var(--section-y) 24px', background: 'var(--white)' }}>
       <div style={{ maxWidth: 1200, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 56, alignItems: 'center' }} className="lp-2col">
         <div data-reveal style={{ position: 'relative' }}>
-          <img src="/assets/empathy.jpg" alt="جلسة استشارة في كور فيزيو" style={{ width: '100%', aspectRatio: '1/1', objectFit: 'cover', objectPosition: 'center 20%', borderRadius: 26, display: 'block' }} />
+          <img src="../../assets/empathy.jpg" alt="جلسة استشارة في كور فيزيو" style={{ width: '100%', aspectRatio: '1/1', objectFit: 'cover', objectPosition: 'center 20%', borderRadius: 26, display: 'block' }} />
         </div>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
           <SectionHead eyebrow={t.empathyEy} title={t.empathyTitle} align="start" max={520} />
@@ -152,9 +152,9 @@ function About({ t, rtl }) {
         </div>
         <div data-reveal style={{ position: 'relative' }}>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gridTemplateRows: 'auto auto', gap: 16 }}>
-            <img src="/assets/ChatGPT Image Jul 1, 2026, 01_59_34 PM.png" alt="جلسة علاج طبيعي في كور فيزيو" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 22, display: 'block', gridRow: 'span 2' }} />
-            <img src="/assets/ChatGPT Image Jun 22, 2026, 11_52_31 PM 2.png" alt="استقبال العيادة" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 22, display: 'block' }} />
-            <img src="/assets/treatment-room.jpg" alt="غرفة العلاج — كور فيزيو" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 22, display: 'block' }} />
+            <img src="../../assets/ChatGPT Image Jul 1, 2026, 01_59_34 PM.png" alt="جلسة علاج طبيعي في كور فيزيو" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 22, display: 'block', gridRow: 'span 2' }} />
+            <img src="../../assets/ChatGPT Image Jun 22, 2026, 11_52_31 PM 2.png" alt="استقبال العيادة" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 22, display: 'block' }} />
+            <img src="../../assets/treatment-room.jpg" alt="غرفة العلاج — كور فيزيو" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 22, display: 'block' }} />
           </div>
         </div>
       </div>
