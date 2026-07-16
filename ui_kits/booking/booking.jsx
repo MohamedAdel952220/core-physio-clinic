@@ -111,9 +111,9 @@ function BookingApp() {
       {/* top bar */}
       <header style={{ background: 'var(--white)', borderBottom: '1px solid var(--border-subtle)' }}>
         <div style={{ maxWidth: 1140, margin: '0 auto', padding: '0 24px', height: 70, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <a href="../landing/index.html" style={{ textDecoration: 'none' }}><Logo variant="dark" size={38} /></a>
+          <a href="/" style={{ textDecoration: 'none' }}><Logo variant="dark" size={38} /></a>
           <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
-            <a href="../landing/index.html" style={{ display: 'inline-flex', alignItems: 'center', gap: 7, textDecoration: 'none', color: 'var(--ink-600)', fontSize: 14, fontWeight: 600 }}>
+            <a href="/" style={{ display: 'inline-flex', alignItems: 'center', gap: 7, textDecoration: 'none', color: 'var(--ink-600)', fontSize: 14, fontWeight: 600 }}>
               <Icon name="arrow-right" size={16} style={{ transform: rtl ? 'none' : 'rotate(180deg)' }} />{t.back}
             </a>
             <button onClick={() => setLang(rtl ? 'en' : 'ar')} style={{ border: '1px solid var(--border-strong)', background: 'var(--white)', cursor: 'pointer', fontFamily: 'inherit', fontSize: 13, fontWeight: 700, padding: '7px 14px', borderRadius: 999, color: 'var(--teal-700)' }}>{t.langName}</button>

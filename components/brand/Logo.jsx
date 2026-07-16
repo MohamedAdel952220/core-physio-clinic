@@ -22,7 +22,7 @@ export function Logo({ variant = "dark", size = 44, ...rest }) {
       {...rest}
     >
       <img
-        src={light ? "../../assets/logo-white.svg" : "../../assets/logo.svg"}
+        src={light ? "/assets/logo-white.svg" : "/assets/logo.svg"}
         alt="Core Physio Clinic"
         style={{
           display: "block",

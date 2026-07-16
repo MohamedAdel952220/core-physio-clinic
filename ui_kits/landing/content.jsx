@@ -43,12 +43,12 @@ const REVIEWS = [
 ];
 
 const GALLERY = [
-  { icon: 'armchair',       en: 'Reception Area',          ar: 'منطقة الاستقبال', tone: 'mint', img: "../../assets/ChatGPT Image Jul 1, 2026, 02_07_04 PM.png" },
-  { icon: 'bed',            en: 'Treatment Room',          ar: 'غرفة العلاج', tone: 'teal', img: "../../assets/treatment-room.jpg" },
-  { icon: 'dumbbell',       en: 'Rehabilitation Equipment', ar: 'أجهزة التأهيل', tone: 'soft', img: "../../assets/hero2.jpg" },
-  { icon: 'activity',       en: 'Rehabilitation Session',  ar: 'جلسة تأهيل', tone: 'teal', img: "../../assets/ChatGPT Image Jun 22, 2026, 11_51_25 PM.png" },
-  { icon: 'heart-handshake',en: 'Comfortable Environment', ar: 'بيئة مريحة', tone: 'soft', img: "../../assets/vcdvgb.png" },
-  { icon: 'users',          en: 'Professional Team',       ar: 'فريق محترف', tone: 'mint', img: "../../assets/pexels-hannah-barata-776560167-27925505.jpg" },
+  { icon: 'armchair',       en: 'Reception Area',          ar: 'منطقة الاستقبال', tone: 'mint', img: "/assets/ChatGPT Image Jul 1, 2026, 02_07_04 PM.png" },
+  { icon: 'bed',            en: 'Treatment Room',          ar: 'غرفة العلاج', tone: 'teal', img: "/assets/treatment-room.jpg" },
+  { icon: 'dumbbell',       en: 'Rehabilitation Equipment', ar: 'أجهزة التأهيل', tone: 'soft', img: "/assets/hero2.jpg" },
+  { icon: 'activity',       en: 'Rehabilitation Session',  ar: 'جلسة تأهيل', tone: 'teal', img: "/assets/ChatGPT Image Jun 22, 2026, 11_51_25 PM.png" },
+  { icon: 'heart-handshake',en: 'Comfortable Environment', ar: 'بيئة مريحة', tone: 'soft', img: "/assets/vcdvgb.png" },
+  { icon: 'users',          en: 'Professional Team',       ar: 'فريق محترف', tone: 'mint', img: "/assets/pexels-hannah-barata-776560167-27925505.jpg" },
 ];
 
 const T = {

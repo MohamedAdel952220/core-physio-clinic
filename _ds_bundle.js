@@ -34,7 +34,7 @@ function Logo({
   const wordAccent = light ? '#AAD0FF' : 'var(--teal-600)';
   const wordSub = light ? '#C8E2FF' : 'var(--ink-500)';
   return /*#__PURE__*/React.createElement("img", _extends({
-  src: light ? "../../assets/logo-white.svg" : "../../assets/logo.svg",
+  src: light ? "/assets/logo-white.svg" : "/assets/logo.svg",
   alt: "Core Physio Clinic",
   width: size * 4.5,
   height: "auto",
@@ -851,7 +851,7 @@ function BookingApp() {
       justifyContent: 'space-between'
     }
   }, /*#__PURE__*/React.createElement("a", {
-    href: "../landing/index.html",
+    href: "/",
     style: {
       textDecoration: 'none'
     }
@@ -865,7 +865,7 @@ function BookingApp() {
       gap: 14
     }
   }, /*#__PURE__*/React.createElement("a", {
-    href: "../landing/index.html",
+    href: "/",
     style: {
       display: 'inline-flex',
       alignItems: 'center',
@@ -1288,7 +1288,7 @@ function App() {
   const [lang, setLang] = useStateApp('en');
   const rtl = lang === 'ar';
   const t = T[lang];
-  const bookingHref = '../booking/index.html';
+  const bookingHref = '/ui_kits/booking/index.html';
   useEffectApp(() => {
     document.documentElement.lang = lang;
     document.documentElement.dir = rtl ? 'rtl' : 'ltr';

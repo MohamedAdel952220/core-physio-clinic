@@ -1,13 +1,56 @@
+<!-- @dsCard group="Landing" viewport="1280x760" name="Core Physio — Landing Page" subtitle="Premium bilingual storytelling landing page" -->
+<!-- @startingPoint section="Marketing" subtitle="Full bilingual physiotherapy landing page" viewport="1280x900" -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=ui_kits/landing/index.html">
-    <title>Redirecting...</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Core Physio Clinic — Move Better. Live Pain Free.</title>
+<link rel="stylesheet" href="/styles.css" />
+<style>
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--white); color: var(--text-body); -webkit-font-smoothing: antialiased; }
+  ::selection { background: var(--teal-200); }
+
+  /* scroll reveal */
+  [data-reveal] { opacity: 0; transform: translateY(22px); transition: opacity 0.7s var(--ease-out), transform 0.7s var(--ease-out); transition-delay: var(--d, 0ms); }
+  [data-reveal].is-in { opacity: 1; transform: none; }
+  @media (prefers-reduced-motion: reduce) { [data-reveal] { opacity: 1 !important; transform: none !important; } }
+
+  /* responsive */
+  @media (max-width: 920px) {
+    .lp-nav { display: none !important; }
+    .lp-hero-grid, .lp-2col { grid-template-columns: 1fr !important; }
+    .lp-grid-3 { grid-template-columns: 1fr 1fr !important; }
+    .lp-journey { grid-template-columns: 1fr 1fr !important; }
+    .lp-journey-line { display: none !important; }
+    .lp-footer { grid-template-columns: 1fr 1fr !important; gap: 28px !important; }
+    .lp-gallery { grid-template-columns: 1fr 1fr !important; }
+  }
+  @media (max-width: 560px) {
+    .lp-hide-sm { display: none !important; }
+    .lp-grid-3, .lp-journey, .lp-gallery, .lp-footer { grid-template-columns: 1fr !important; }
+  }
+</style>
 </head>
 <body>
-    <p>If you are not redirected automatically,
-        <a href="ui_kits/landing/index.html">click here</a>.
-    </p>
+<div id="root"></div>
+<template id="__bundler_thumbnail">
+  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><rect width="100" height="100" rx="20" fill="#0D8E80"/><circle cx="50" cy="50" r="26" fill="none" stroke="#fff" stroke-width="4"/><circle cx="50" cy="40" r="6" fill="#fff"/><path d="M50 47c5 4 5 16 0 24-5-8-5-20 0-24z" fill="#fff"/></svg>
+</template>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="/_ds_bundle.js"></script>
+
+<script type="text/babel" data-presets="react" src="/ui_kits/landing/lib.jsx"></script>
+<script type="text/babel" data-presets="react" src="/ui_kits/landing/content.jsx"></script>
+<script type="text/babel" data-presets="react" src="/ui_kits/landing/sectionsA.jsx" ></script>
+<script type="text/babel" data-presets="react" src="/ui_kits/landing/sectionsB.jsx"></script>
+<script type="text/babel" data-presets="react" src="/ui_kits/landing/sectionsC.jsx"></script>
+<script type="text/babel" data-presets="react" src="/ui_kits/landing/sectionsD.jsx"></script>
+<script type="text/babel" data-presets="react" src="/ui_kits/landing/App.jsx"></script>
 </body>
 </html>

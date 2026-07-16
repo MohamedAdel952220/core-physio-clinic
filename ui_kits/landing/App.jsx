@@ -5,7 +5,7 @@ function App() {
   const [lang, setLang] = useStateApp('ar');
   const rtl = lang === 'ar';
   const t = T[lang];
-  const bookingHref = '../booking/index.html';
+  const bookingHref = '/ui_kits/booking/index.html';
 
   useEffectApp(() => {
     document.documentElement.lang = lang;
