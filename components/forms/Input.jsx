@@ -27,7 +27,7 @@ export function Input({
         </label>
       )}
       <div style={{ position: 'relative', display: 'flex', alignItems: 'center' }}>
-        {icon && <span style={{ position: 'absolute', insetInlineStart: 14, display: 'flex', color: 'var(--ink-400)' }}>{icon}</span>}
+        {icon && <span style={{ position: 'absolute', insetInlineStart: 14, top: '50%', transform: 'translateY(-50%)', display: 'flex', alignItems: 'center', color: 'var(--ink-400)', pointerEvents: 'none' }}>{icon}</span>}
         <input
           id={fieldId}
           type={type}
@@ -40,7 +40,8 @@ export function Input({
           style={{
             width: '100%',
             height: 50,
-            padding: icon ? '0 16px 0 42px' : '0 16px',
+            paddingInlineStart: icon ? 42 : 16,
+            paddingInlineEnd: 16,
             background: 'var(--white)',
             border: `1.5px solid ${focus ? 'var(--teal-500)' : 'var(--border-strong)'}`,
             borderRadius: 'var(--radius-md)',

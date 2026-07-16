@@ -25,7 +25,8 @@ export function Select({ label, required = false, options = [], value, onChange,
           style={{
             width: '100%',
             height: 50,
-            padding: '0 40px 0 16px',
+            paddingInlineStart: 16,
+            paddingInlineEnd: 40,
             appearance: 'none',
             WebkitAppearance: 'none',
             background: 'var(--white)',
@@ -48,7 +49,7 @@ export function Select({ label, required = false, options = [], value, onChange,
             return <option key={val} value={val}>{lbl}</option>;
           })}
         </select>
-        <span style={{ position: 'absolute', insetInlineEnd: 16, pointerEvents: 'none', color: 'var(--ink-500)' }}>
+        <span style={{ position: 'absolute', insetInlineEnd: 16, top: '50%', transform: 'translateY(-50%)', display: 'flex', alignItems: 'center', pointerEvents: 'none', color: 'var(--ink-500)' }}>
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"/></svg>
         </span>
       </div>
