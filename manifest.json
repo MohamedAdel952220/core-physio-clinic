@@ -1,0 +1,23 @@
+{
+  "name": "Core Physio Clinic — كور فيزيو كلينك",
+  "short_name": "Core Physio",
+  "description": "عيادة كور فيزيو كلينك لعلاج طبيعي وتأهيل احترافي في الشيخ زايد، الجيزة، بإشراف د. علياء عادل.",
+  "start_url": "/",
+  "id": "/",
+  "scope": "/",
+  "display": "browser",
+  "orientation": "portrait-primary",
+  "lang": "ar-EG",
+  "dir": "rtl",
+  "background_color": "#ffffff",
+  "theme_color": "#0D8E80",
+  "categories": ["health", "medical", "business"],
+  "icons": [
+    {
+      "src": "/assets/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

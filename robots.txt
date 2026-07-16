@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Allow: /booking/
+Allow: /assets/
+Allow: /styles.css
+Allow: /_ds_bundle.js
+
+Disallow: /ui_kits/
+Disallow: /components/
+Disallow: /foundations/
+Disallow: /tokens/
+Disallow: /design_handoff_landing_page/
+Disallow: /uploads/
+Disallow: /_ds_manifest.json
+Disallow: /_adherence.oxlintrc.json
+
+Sitemap: https://corephysioclinics.com/sitemap.xml

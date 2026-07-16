@@ -51,7 +51,7 @@ function Gallery({ t, rtl }) {
             return (
               <div key={i} data-reveal style={{ '--d': `${i * 70}ms`, ...spans[i], borderRadius: 20, overflow: 'hidden' }}>
                 {g.img
-                  ? <img src={g.img} alt={g[rtl ? 'ar' : 'en']} style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                  ? <img src={g.img} alt={`${g[rtl ? 'ar' : 'en']} — عيادة كور فيزيو كلينك`} title={g[rtl ? 'ar' : 'en']} width={g.w} height={g.h} loading="lazy" decoding="async" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
                   : <Photo icon={g.icon} tone={g.tone} label={g[rtl ? 'ar' : 'en']} rounded={20} style={{ height: '100%' }} />
                 }
               </div>
