@@ -13,7 +13,7 @@ A premium, modern, **bilingual (Arabic / English)** design system for **Core Phy
 | **Location** | Twin Towers Mall, Second Al Sheikh Zayed, Giza Governorate 12511, Egypt |
 | **Phone / WhatsApp** | +20 10 40396189 · https://wa.me/201040396189 |
 | **Instagram** | https://www.instagram.com/core_physio_clinic |
-| **Hours** | Sat–Thu 9:00 AM – 10:00 PM · Friday closed |
+| **Hours** | Sat–Fri · Daily 9:00 AM – 12:00 PM |
 | **Rating** | 4.9 ★ · 35+ reviews |
 | **Languages** | Arabic (RTL) / English (LTR) |
 
@@ -40,7 +40,7 @@ Explore these repositories further to deepen animation/scroll work on the landin
 - **Casing:** Headlines use **Title Case** ("Why Patients Trust Core Physio Clinic"). Body is sentence case. Eyebrows/labels are **UPPERCASE** with wide tracking.
 - **Tone words:** recovery, movement, pain-free, personalized, long-term, comfortable, trusted, professional. Avoid fear-based or salesy language.
 - **Outcomes over features:** "return to daily activities with confidence," not "we own modern equipment."
-- **Trust signals are copy:** the 4.9★, 35+ reviews, "Women-Owned Clinic," "Located in Sheikh Zayed" appear as short badge phrases — punchy, scannable.
+- **Trust signals are copy:** the 4.9★, 35+ reviews, "Top Physiotherapy & Rehabilitation Consultants and Specialists," "Located in Sheikh Zayed" appear as short badge phrases — punchy, scannable.
 - **CTAs** are short imperatives: *Book Appointment*, *Chat on WhatsApp*, *Get Directions*, *Call Now*, *Learn More*, *Request Appointment*.
 - **No emoji.** Trust marks use the gold star (★) and check (✓) only. Real testimonials are quoted verbatim and attributed to a real first + last name.
 - **Bilingual parity:** every string ships in English **and** Arabic; the language switcher (EN | AR) toggles all content and flips layout direction instantly. Arabic copy is natural, not a literal translation (e.g. hero AR: *طريقك لحياة أكثر راحة وحركة بدون ألم*).

@@ -227,7 +227,7 @@ Phone:     +20 10 40396189   (raw: +201040396189)
 WhatsApp:  https://wa.me/201040396189
 Instagram: https://www.instagram.com/core_physio_clinic
 Address:   Twin Towers Mall, Second Al Sheikh Zayed, Giza Governorate 12511, Egypt
-Hours:     Sat–Thu 9:00 AM – 10:00 PM · Fri Closed
+Hours:     Sat–Fri · Daily 9:00 AM – 12:00 PM
 Rating:    4.9 ★ (35+ reviews)
 ```
 

@@ -113,7 +113,7 @@ function Footer({ t, lang, rtl, openWhatsApp }) {
             <h4 style={{ margin: '0 0 4px', fontSize: 13, fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#fff' }}>{t.contact}</h4>
             <a href={`tel:${CLINIC.phoneRaw}`} style={{ display: 'flex', alignItems: 'center', gap: 10, fontSize: 14, color: 'rgba(255,255,255,0.7)', textDecoration: 'none' }}><Icon name="phone" size={15} /><span dir="ltr">{CLINIC.phone}</span></a>
             <div style={{ display: 'flex', alignItems: 'flex-start', gap: 10, fontSize: 14, lineHeight: 1.5 }}><Icon name="map-pin" size={15} style={{ marginTop: 3 }} />{rtl ? 'تُوين تاورز مول، الشيخ زايد، الجيزة' : 'Twin Towers Mall, Sheikh Zayed, Giza'}</div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 10, fontSize: 14 }}><Icon name="clock" size={15} />{rtl ? 'السبت–الخميس · 9:00 ص – 10:00 م' : 'Sat–Thu · 9:00 AM – 10:00 PM'}</div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 10, fontSize: 14 }}><Icon name="clock" size={15} />{rtl ? 'السبت-الجمعة · يوميًا 9:00 ص – 12:00 م' : 'Sat–Fri · Daily 9:00 AM – 12:00 PM'}</div>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
             <h4 style={{ margin: '0 0 4px', fontSize: 13, fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase', color: '#fff' }}>{t.follow}</h4>
