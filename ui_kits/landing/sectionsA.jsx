@@ -89,7 +89,7 @@ function Hero({ t, rtl, openWhatsApp, bookingHref }) {
           </div>
         </div>
         <div style={{ position: 'relative' }}>
-          <img src="/assets/hero.jpg" alt="معالج طبيعي مع مريض في عيادة كور فيزيو كلينك بالشيخ زايد" title="جلسة علاج طبيعي في عيادة كور فيزيو" width={960} height={1280} loading="eager" fetchpriority="high" decoding="async" style={{ width: '100%', aspectRatio: '4/5', objectFit: 'cover', objectPosition: '70% center', borderRadius: 28, display: 'block' }} />
+          <img src="/assets/hero.jpg" alt="معالج طبيعي مع مريض في عيادة كور فيزيو كلينك بالشيخ زايد" title="جلسة علاج طبيعي في عيادة كور فيزيو" loading="eager" fetchpriority="high" decoding="async" style={{ width: '100%', aspectRatio: '4/5', objectFit: 'cover', objectPosition: '70% center', borderRadius: 28, display: 'block' }} />
           <div style={{ position: 'absolute', insetInlineStart: -22, top: 36 }}>
             <div style={{ background: 'var(--glass-bg)', backdropFilter: 'var(--blur-glass)', WebkitBackdropFilter: 'var(--blur-glass)', border: 'var(--glass-border)', borderRadius: 18, padding: '14px 18px', boxShadow: 'var(--shadow-glass)', display: 'flex', alignItems: 'center', gap: 12 }}>
               <span style={{ width: 40, height: 40, borderRadius: 12, background: 'var(--gold-100)', color: 'var(--gold-500)', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}><Icon name="star" size={20} /></span>
@@ -113,7 +113,7 @@ function Empathy({ t, rtl }) {
     <section style={{ padding: 'var(--section-y) 24px', background: 'var(--white)' }}>
       <div style={{ maxWidth: 1200, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 56, alignItems: 'center' }} className="lp-2col">
         <div data-reveal style={{ position: 'relative' }}>
-          <img src="/assets/empathy.jpg" alt="جلسة استشارة علاج طبيعي في عيادة كور فيزيو كلينك" title="استشارة علاج طبيعي" width={960} height={1280} loading="lazy" decoding="async" style={{ width: '100%', aspectRatio: '1/1', objectFit: 'cover', objectPosition: 'center 20%', borderRadius: 26, display: 'block' }} />
+          <img src="/assets/empathy.jpg" alt="جلسة استشارة علاج طبيعي في عيادة كور فيزيو كلينك" title="استشارة علاج طبيعي" loading="lazy" decoding="async" style={{ width: '100%', aspectRatio: '1/1', objectFit: 'cover', objectPosition: 'center 20%', borderRadius: 26, display: 'block' }} />
         </div>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
           <SectionHead eyebrow={t.empathyEy} title={t.empathyTitle} align="start" max={520} />
